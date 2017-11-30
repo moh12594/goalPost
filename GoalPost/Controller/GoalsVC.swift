@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  GoalsVC.swift
 //  GoalPost
 //
 //  Created by Mohamed SADAT on 30/11/2017.
@@ -8,18 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-  override func viewDidLoad() {
+class GoalsVC: UIViewController {
+    
+    // Outlets
+    @IBOutlet weak var goalsTableView: UITableView!
+    
+    
+    override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
   }
 
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-  }
-
-
+    @IBAction func addGoalButtonPressed(_ sender: Any) {
+        
+    }
+    
 }
 
